@@ -41,8 +41,8 @@ export default function Sidebar({
 
                 {/* Brand */}
                 <div className="sidebar-logo">
-                    <span className="sidebar-badge">LAYER10</span>
-                    <span className="sidebar-logo-name">Knowledge Graph</span>
+                    <span className="sidebar-badge">GRAPHMIND</span>
+                    <span className="sidebar-logo-name">Knowledge Graph Platform</span>
                 </div>
 
                 {/* Entity Types */}

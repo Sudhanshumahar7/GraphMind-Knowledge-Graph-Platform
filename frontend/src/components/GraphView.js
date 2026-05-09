@@ -35,7 +35,7 @@ export default function GraphView({ graphUrl, meta, selectedTypes, selectedRels 
             {/* Topbar */}
             <div className="graph-topbar">
                 <span className="pulse" />
-                <span>Knowledge Graph</span>
+                <span>GraphMind: Knowledge Graph Platform</span>
                 {meta && (
                     <>
                         <span style={{ color: 'var(--text-dim)' }}>·</span>
@@ -79,7 +79,7 @@ export default function GraphView({ graphUrl, meta, selectedTypes, selectedRels 
                         <iframe
                             key={iframeKey}
                             src={graphUrl}
-                            title="Knowledge Graph"
+                            title="GraphMind: Knowledge Graph Platform"
                             onLoad={() => setLoading(false)}
                         />
                     </>

@@ -59,9 +59,9 @@ export default function App() {
       <div className="main">
         {/* Header */}
         <div className="page-header">
-          <div className="page-header-badge">LAYER10</div>
+          <div className="page-header-badge">GRAPHMIND</div>
           <div>
-            <h1>Knowledge Graph</h1>
+            <h1>GraphMind: Knowledge Graph Platform</h1>
             <p>Capturing entities, decisions, and relationships from GitHub project history.</p>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function App() {
 
         <div className="tabs">
           {[
-            { id: 'graph', label: 'Knowledge Graph' },
+            { id: 'graph', label: 'GraphMind' },
             { id: 'analytics', label: 'Analytics' },
             { id: 'explorer', label: 'Node Explorer' },
           ].map(t => (

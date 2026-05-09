@@ -15,7 +15,7 @@ from graph_service import (
     get_node_detail,
 )
 
-app = FastAPI(title="Layer10 Knowledge Graph API", version="1.0.0")
+app = FastAPI(title="GraphMind: Knowledge Graph Platform API", version="1.0.0")
 print("--- Backend Initialization Started ---")
 
 import threading
